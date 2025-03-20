@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>guia para cuidar a una mascota</title>
+    <title >Guia para cuidar a una mascota</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body align="center">
-    <h1>guia de cuidado de mascotas </h1>
+    <h1 id="titulos">Guia de cuidado de mascotas </h1>
+    <div id="indice">
     <h2><a NAME="indice">Indice</a></h2>
-    <center>
-    <ul>  
-        <li><a href="#uno">imagen de perritos</a></li>   
-        <li><a href="#dos">cuidados para los perritos </a></li>    
-        <li><a href="#tres">cuidados para gatos  </a></li>    
-        <li><a href="#cuatro">caracteristicas de la mascota </a></li>    
-        <li><a href="#cinco">Solicitar asesoria</a></li>    
+    <ul> 
+        <li><a id="indice" href="#uno">imagen de perritos</a></li>   
+        <li><a id="indice" href="#dos">cuidados para los perritos </a></li>    
+        <li><a id="indice" href="#tres">cuidados para gatos  </a></li>    
+        <li><a id="indice" href="#cuatro">caracteristicas de la mascota </a></li>    
+        <li><a id="indice" href="#cinco">Solicitar asesoria</a></li>    
         
     </ul>
-    </center>
+    </div>
     <h3><a name="uno">imagen de perrito</a></h3>
     <p>en esta seccion nos dedicamos a fotos de perrito</p>
     <p><img  src="imagen/dog.jpg" alt="se parece a mi perrita" width="300px"></p>
@@ -47,7 +48,7 @@
 
     <h3><a name="cinco">Solicitar asesoria</a></h3>
     <p>si desea ponerse en contacto con nosotros llene el siguiente formulario</p>
-    <form action="mailto:caed@gmail.com" method="get">
+    <form class="formulario" action="mailto:caed@gmail.com" method="get">
         <label for="nombre">nombre de la mascota</label>
         <input type="text" name="nombre" placeholder="firulais" value="fido">
         <br>
