@@ -1,0 +1,38 @@
+#titulos {
+    color: blue;
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul {
+    text-align: center;
+    color: chocolate;
+    align-content: center;
+    justify-content: center;
+}
+
+#indice {
+    color: chocolate;
+}
+h3 {
+    color: red;
+} 
+table {
+    
+    border: dotted;
+    border-color: violet;
+}
+#indice{
+    font-size: x-large;
+    font-style: normal;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+body {
+    background-color: chartreuse;
+}
+.formulario {
+    color: deeppink;
+}
